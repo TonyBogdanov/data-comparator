@@ -14,3 +14,5 @@ else
 fi
 
 ./vendor/bin/php-coverage-badger ./coverage/coverage.xml ./coverage/coverage.svg
+
+php ./bin/fix-coverage.php
