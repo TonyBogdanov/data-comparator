@@ -1,0 +1,28 @@
+{
+    "name": "tonybogdanov/data-comparator",
+    "description": "Recursive data comparison (of any type)",
+    "type": "library",
+    "require": {
+        "php": "^7.3",
+        "ext-json": "^1.7"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tony Bogdanov",
+            "email": "support@tonybogdanov.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "DataComparator\\": "src/",
+            "Tests\\DataComparator\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5",
+        "phpunit/php-code-coverage": "^7.0",
+        "jaschilz/php-coverage-badger": "^2.0",
+        "ext-gd": "^7.3"
+    }
+}
