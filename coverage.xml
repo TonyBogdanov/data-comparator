@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1577708716">
-  <project timestamp="1577708716">
+<coverage generated="1577713587">
+  <project timestamp="1577713587">
     <package name="DataComparator">
       <file name="/home/runner/work/data-comparator/data-comparator/src/Comparator.php">
         <class name="DataComparator\Comparator" namespace="DataComparator" fullPackage="DataComparator" package="DataComparator">
