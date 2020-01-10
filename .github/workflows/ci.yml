@@ -37,6 +37,24 @@ jobs:
                   chmod +x ./bin/run-tests-with-coverage.sh
                   ./bin/run-tests-with-coverage.sh
 
+            - name: Upload artifacts
+              uses: actions/upload-artifact@v1
+              with:
+                  name: coverage
+                  path: coverage
+
+    coverage:
+        needs: [ build ]
+        runs-on: ubuntu-latest
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v1
+
+            - name: Download artifacts
+              uses: actions/download-artifact@v1
+              with:
+                  name: coverage
+
             - name: Publish coverage results
               uses: JamesIves/github-pages-deploy-action@releases/v3
               with:
