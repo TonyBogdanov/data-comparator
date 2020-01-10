@@ -4,7 +4,7 @@
     "type": "library",
     "require": {
         "php": "^7.3",
-        "ext-json": "^1.7"
+        "ext-json": "*"
     },
     "license": "MIT",
     "authors": [
@@ -23,6 +23,6 @@
         "phpunit/phpunit": "^8.5",
         "phpunit/php-code-coverage": "^7.0",
         "jaschilz/php-coverage-badger": "^2.0",
-        "ext-gd": "^7.3"
+        "ext-gd": "*"
     }
 }

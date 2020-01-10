@@ -7,10 +7,24 @@ on:
 
 jobs:
     build:
-        runs-on: ubuntu-latest
+        runs-on: ${{ matrix.operating-system }}
+
+        strategy:
+            matrix:
+                php-versions: [ '7.3', '7.4' ]
+                operating-system: [ ubuntu-latest, windows-latest, macOS-latest ]
+
+        name: PHP ${{ matrix.php-versions }} on ${{ matrix.operating-system }}
 
         steps:
-            - uses: actions/checkout@v1
+            - name: Checkout
+              uses: actions/checkout@v1
+
+            - name: Setup PHP
+              uses: shivammathur/setup-php@v1
+              with:
+                  php-version: ${{ matrix.php-versions }}
+                  extensions: mbstring, json, gd
 
             - name: Validate composer
               run: composer validate
