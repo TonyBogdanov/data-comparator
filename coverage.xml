@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1578658823">
-  <project timestamp="1578658823">
+<coverage generated="1578659375">
+  <project timestamp="1578659375">
     <package name="DataComparator">
       <file name="/Users/runner/runners/2.163.1/work/data-comparator/data-comparator/src/Comparator.php">
         <class name="DataComparator\Comparator" namespace="DataComparator" fullPackage="DataComparator" package="DataComparator">
-          <metrics complexity="42" methods="9" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="70" coveredstatements="63" elements="79" coveredelements="69"/>
+          <metrics complexity="42" methods="9" coveredmethods="9" conditionals="0" coveredconditionals="0" statements="70" coveredstatements="70" elements="79" coveredelements="79"/>
         </class>
-        <line num="32" type="method" name="formatValue" visibility="protected" complexity="2" crap="2" count="930"/>
-        <line num="34" type="stmt" count="930"/>
+        <line num="32" type="method" name="formatValue" visibility="protected" complexity="2" crap="2" count="931"/>
+        <line num="34" type="stmt" count="931"/>
         <line num="36" type="stmt" count="11"/>
-        <line num="40" type="stmt" count="919"/>
+        <line num="40" type="stmt" count="920"/>
         <line num="49" type="method" name="typesDiffer" visibility="protected" complexity="2" crap="2" count="34315"/>
         <line num="51" type="stmt" count="34315"/>
         <line num="53" type="stmt" count="34315"/>
@@ -20,12 +20,12 @@
         <line num="72" type="stmt" count="648"/>
         <line num="73" type="stmt" count="648"/>
         <line num="74" type="stmt" count="648"/>
-        <line num="85" type="method" name="valuesDiffer" visibility="protected" complexity="2" crap="2" count="282"/>
-        <line num="87" type="stmt" count="282"/>
-        <line num="89" type="stmt" count="282"/>
-        <line num="90" type="stmt" count="282"/>
-        <line num="91" type="stmt" count="282"/>
-        <line num="92" type="stmt" count="282"/>
+        <line num="85" type="method" name="valuesDiffer" visibility="protected" complexity="2" crap="2" count="283"/>
+        <line num="87" type="stmt" count="283"/>
+        <line num="89" type="stmt" count="283"/>
+        <line num="90" type="stmt" count="283"/>
+        <line num="91" type="stmt" count="283"/>
+        <line num="92" type="stmt" count="283"/>
         <line num="103" type="method" name="objectReferencesSelf" visibility="protected" complexity="3" crap="3" count="2"/>
         <line num="105" type="stmt" count="2"/>
         <line num="107" type="stmt" count="2"/>
@@ -38,37 +38,37 @@
         <line num="129" type="stmt" count="9035"/>
         <line num="133" type="stmt" count="9035"/>
         <line num="135" type="stmt" count="9036"/>
-        <line num="142" type="method" name="ignoreKey" visibility="public" complexity="1" crap="2" count="0"/>
-        <line num="144" type="stmt" count="0"/>
-        <line num="146" type="stmt" count="0"/>
-        <line num="151" type="method" name="unignoreKey" visibility="public" complexity="2" crap="6" count="0"/>
-        <line num="153" type="stmt" count="0"/>
-        <line num="154" type="stmt" count="0"/>
-        <line num="156" type="stmt" count="0"/>
-        <line num="160" type="stmt" count="0"/>
-        <line num="169" type="method" name="compare" visibility="public" complexity="26" crap="26" count="35522"/>
-        <line num="171" type="stmt" count="35522"/>
-        <line num="173" type="stmt" count="5399"/>
-        <line num="177" type="stmt" count="35253"/>
-        <line num="178" type="stmt" count="35253"/>
-        <line num="180" type="stmt" count="35253"/>
+        <line num="142" type="method" name="ignoreKey" visibility="public" complexity="1" crap="1" count="2"/>
+        <line num="144" type="stmt" count="2"/>
+        <line num="146" type="stmt" count="2"/>
+        <line num="151" type="method" name="unignoreKey" visibility="public" complexity="2" crap="2" count="2"/>
+        <line num="153" type="stmt" count="2"/>
+        <line num="154" type="stmt" count="2"/>
+        <line num="156" type="stmt" count="2"/>
+        <line num="160" type="stmt" count="2"/>
+        <line num="169" type="method" name="compare" visibility="public" complexity="26" crap="26" count="35524"/>
+        <line num="171" type="stmt" count="35524"/>
+        <line num="173" type="stmt" count="5400"/>
+        <line num="177" type="stmt" count="35255"/>
+        <line num="178" type="stmt" count="35255"/>
+        <line num="180" type="stmt" count="35255"/>
         <line num="182" type="stmt" count="34315"/>
-        <line num="188" type="stmt" count="15038"/>
-        <line num="189" type="stmt" count="15016"/>
-        <line num="190" type="stmt" count="15038"/>
-        <line num="194" type="stmt" count="282"/>
-        <line num="196" type="stmt" count="282"/>
-        <line num="200" type="stmt" count="15014"/>
-        <line num="202" type="stmt" count="15012"/>
-        <line num="203" type="stmt" count="15012"/>
-        <line num="205" type="stmt" count="15012"/>
-        <line num="206" type="stmt" count="15012"/>
-        <line num="208" type="stmt" count="15012"/>
+        <line num="188" type="stmt" count="15040"/>
+        <line num="189" type="stmt" count="15018"/>
+        <line num="190" type="stmt" count="15040"/>
+        <line num="194" type="stmt" count="283"/>
+        <line num="196" type="stmt" count="283"/>
+        <line num="200" type="stmt" count="15016"/>
+        <line num="202" type="stmt" count="15014"/>
+        <line num="203" type="stmt" count="15014"/>
+        <line num="205" type="stmt" count="15014"/>
+        <line num="206" type="stmt" count="15014"/>
+        <line num="208" type="stmt" count="15014"/>
         <line num="210" type="stmt" count="648"/>
-        <line num="214" type="stmt" count="14650"/>
-        <line num="216" type="stmt" count="14650"/>
-        <line num="218" type="stmt" count="0"/>
-        <line num="222" type="stmt" count="14650"/>
+        <line num="214" type="stmt" count="14652"/>
+        <line num="216" type="stmt" count="14652"/>
+        <line num="218" type="stmt" count="1"/>
+        <line num="222" type="stmt" count="14652"/>
         <line num="226" type="stmt" count="9036"/>
         <line num="228" type="stmt" count="9036"/>
         <line num="229" type="stmt" count="9036"/>
@@ -84,8 +84,8 @@
         <line num="256" type="stmt" count="9036"/>
         <line num="257" type="stmt" count="9036"/>
         <line num="259" type="stmt" count="9036"/>
-        <line num="263" type="stmt" count="6"/>
-        <metrics loc="265" ncloc="208" classes="1" methods="9" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="70" coveredstatements="63" elements="79" coveredelements="69"/>
+        <line num="263" type="stmt" count="7"/>
+        <metrics loc="265" ncloc="208" classes="1" methods="9" coveredmethods="9" conditionals="0" coveredconditionals="0" statements="70" coveredstatements="70" elements="79" coveredelements="79"/>
       </file>
     </package>
     <package name="DataComparator\Exceptions">
@@ -102,6 +102,6 @@
         <metrics loc="19" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
     </package>
-    <metrics files="3" loc="303" ncloc="224" classes="1" methods="9" coveredmethods="6" conditionals="0" coveredconditionals="0" statements="70" coveredstatements="63" elements="79" coveredelements="69"/>
+    <metrics files="3" loc="303" ncloc="224" classes="1" methods="9" coveredmethods="9" conditionals="0" coveredconditionals="0" statements="70" coveredstatements="70" elements="79" coveredelements="79"/>
   </project>
 </coverage>
