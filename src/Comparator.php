@@ -213,7 +213,7 @@ class Comparator {
 
             foreach ( $left as $key => $value ) {
 
-                if ( in_array( $key, static::$ignoredKeys ) ) {
+                if ( in_array( $key, static::$ignoredKeys, true ) ) {
 
                     continue;
 
