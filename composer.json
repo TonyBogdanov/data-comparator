@@ -24,5 +24,10 @@
         "phpunit/php-code-coverage": "^7.0",
         "jaschilz/php-coverage-badger": "^2.0",
         "ext-gd": "*"
+    },
+    "config": {
+        "platform": {
+            "php": "7.3"
+        }
     }
 }
