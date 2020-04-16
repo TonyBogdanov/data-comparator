@@ -6,6 +6,15 @@ on:
             - master
 
 jobs:
+    delete-artifacts:
+        if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+        runs-on: ubuntu-latest
+        steps:
+            -   uses: kolpav/purge-artifacts-action@v1
+                with:
+                    token: ${{ secrets.GITHUB_TOKEN }}
+                    expire-in: 10 minutes
+
     build:
         runs-on: ${{ matrix.operating-system }}
 
