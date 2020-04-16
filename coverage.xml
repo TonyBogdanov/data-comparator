@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1579600410">
-  <project timestamp="1579600410">
+<coverage generated="1587039804">
+  <project timestamp="1587039804">
     <package name="DataComparator">
-      <file name="/Users/runner/runners/2.164.0/work/data-comparator/data-comparator/src/Comparator.php">
+      <file name="/Users/runner/runners/2.169.0/work/data-comparator/data-comparator/src/Comparator.php">
         <class name="DataComparator\Comparator" namespace="DataComparator" fullPackage="DataComparator" package="DataComparator">
           <metrics complexity="42" methods="9" coveredmethods="9" conditionals="0" coveredconditionals="0" statements="70" coveredstatements="70" elements="79" coveredelements="79"/>
         </class>
@@ -89,13 +89,13 @@
       </file>
     </package>
     <package name="DataComparator\Exceptions">
-      <file name="/Users/runner/runners/2.164.0/work/data-comparator/data-comparator/src/Exceptions/CircularReferenceException.php">
+      <file name="/Users/runner/runners/2.169.0/work/data-comparator/data-comparator/src/Exceptions/CircularReferenceException.php">
         <class name="DataComparator\Exceptions\CircularReferenceException" namespace="DataComparator\Exceptions" fullPackage="DataComparator" package="DataComparator">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
         <metrics loc="19" ncloc="8" classes="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
       </file>
-      <file name="/Users/runner/runners/2.164.0/work/data-comparator/data-comparator/src/Exceptions/ValuesDifferException.php">
+      <file name="/Users/runner/runners/2.169.0/work/data-comparator/data-comparator/src/Exceptions/ValuesDifferException.php">
         <class name="DataComparator\Exceptions\ValuesDifferException" namespace="DataComparator\Exceptions" fullPackage="DataComparator" package="DataComparator">
           <metrics complexity="0" methods="0" coveredmethods="0" conditionals="0" coveredconditionals="0" statements="0" coveredstatements="0" elements="0" coveredelements="0"/>
         </class>
